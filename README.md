@@ -1,14 +1,18 @@
 <div align="center">
 
 <!-- VIP Animated Header Banner -->
-<img src="./dynamic_banner.svg" width="100%" alt="Dinh Quan VIP Lounge Banner" />
+<img src="./banner_vip_ultra.svg" width="100%" alt="Dinh Quan VIP Arcade Banner" />
 
 <br/><br/>
 
-<!-- Party Parrots + Typing SVG -->
-<img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="32" />
-<img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="32" />
-<img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="32" />
+<!-- Party Parrots Squad + Typing SVG -->
+<img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="32" />&nbsp;
+<img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="32" />&nbsp;
+<img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitnowparrot.gif" width="32" />&nbsp;
+<img src="https://cultofthepartyparrot.com/parrots/hd/jumpingparrot.gif" width="32" />&nbsp;
+<img src="https://cultofthepartyparrot.com/parrots/hd/moonwalkingparrot.gif" width="32" />&nbsp;
+<img src="https://cultofthepartyparrot.com/parrots/hd/scienceparrot.gif" width="32" />&nbsp;
+<img src="https://cultofthepartyparrot.com/parrots/hd/pirateparrot.gif" width="32" />
 
 <br/>
 
@@ -18,8 +22,8 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=dinhquan1005&label=L%C6%AF%E1%BB%A2T+GH%C3%89+TH%C4%82M&color=8b5cf6&style=for-the-badge" alt="Profile Views" />
-<img src="https://img.shields.io/badge/VIP_LOUNGE-ACTIVE-090e1c?style=for-the-badge&logo=github&logoColor=38bdf8" alt="VIP Active" />
+<img src="https://komarev.com/ghpvc/?username=dinhquan1005&label=L%C6%AF%E1%BB%A2T+GH%C3%89+TH%C4%82M&color=8b5cf6&style=for-the-badge" alt="Profile Views" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/VIP_ARCADE-LVL_99-090e1c?style=for-the-badge&logo=github&logoColor=38bdf8" alt="VIP Active" />&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/BUGS_CREATED-%E2%88%9E-f472b6?style=for-the-badge" alt="Bugs Created" />
 
 <br/><br/>

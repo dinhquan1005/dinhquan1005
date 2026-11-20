@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="100%" height="100%">
+  <defs>
+    <!-- Deep Space / Cyberpunk Base -->
+    <linearGradient id="bgUltra" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040712" />
+      <stop offset="45%" stop-color="#0d1330" />
+      <stop offset="100%" stop-color="#1d0b36" />
+    </linearGradient>
+
+    <!-- Aurora Ambient Glows -->
+    <radialGradient id="auroraCyan" cx="18%" cy="22%" r="48%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.30" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="auroraPink" cx="84%" cy="76%" r="50%">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="auroraViolet" cx="55%" cy="12%" r="40%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.24" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Neon Gradients -->
+    <linearGradient id="titleNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#818cf8" />
+      <stop offset="70%" stop-color="#e879f9" />
+      <stop offset="100%" stop-color="#fb7185" />
+    </linearGradient>
+    <linearGradient id="frameNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+    <linearGradient id="scanLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="horizonGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#040712" stop-opacity="0" />
+    </linearGradient>
+
+    <style>
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
+      @keyframes floatY { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-5px); } }
+      @keyframes scanMove { 0% { transform: translateY(0px); opacity: 0; } 12% { opacity: 0.85; } 88% { opacity: 0.85; } 100% { transform: translateY(356px); opacity: 0; } }
+      @keyframes spinRadar { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      @keyframes barCaf { 0%, 100% { width: 118px; } 50% { width: 182px; } }
+      @keyframes barSan { 0%, 100% { width: 160px; } 50% { width: 65px; } }
+      @keyframes eq1 { 0%, 100% { height: 10px; y: 24px; } 50% { height: 32px; y: 2px; } }
+      @keyframes eq2 { 0%, 100% { height: 28px; y: 6px; } 50% { height: 10px; y: 24px; } }
+      @keyframes eq3 { 0%, 100% { height: 16px; y: 18px; } 50% { height: 32px; y: 2px; } }
+      @keyframes eq4 { 0%, 100% { height: 30px; y: 4px; } 50% { height: 12px; y: 22px; } }
+      @keyframes starPulse { 0%, 100% { opacity: 0.2; } 50% { opacity: 1; } }
+      @keyframes codeLine { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+
+      .dot-live { animation: blink 1.1s infinite ease-in-out; }
+      .float-cards { animation: floatY 3.6s ease-in-out infinite; }
+      .laser-beam { animation: scanMove 4.8s linear infinite; }
+      .radar-spin { transform-origin: 0px 0px; animation: spinRadar 5s linear infinite; }
+      .bar-caf { animation: barCaf 3.5s ease-in-out infinite; }
+      .bar-san { animation: barSan 4.2s ease-in-out infinite; }
+      .eq-1 { animation: eq1 0.85s ease-in-out infinite; }
+      .eq-2 { animation: eq2 0.72s ease-in-out infinite; }
+      .eq-3 { animation: eq3 1.05s ease-in-out infinite; }
+      .eq-4 { animation: eq4 0.78s ease-in-out infinite; }
+      .s1 { animation: starPulse 2.0s infinite; }
+      .s2 { animation: starPulse 2.9s 0.6s infinite; }
+      .s3 { animation: starPulse 2.4s 1.2s infinite; }
+      .cl1 { animation: codeLine 1.8s infinite; }
+      .cl2 { animation: codeLine 2.3s 0.5s infinite; }
+    </style>
+  </defs>
+
+  <!-- Base & Aurora -->
+  <rect width="960" height="360" rx="20" fill="url(#bgUltra)" />
+  <rect width="960" height="360" rx="20" fill="url(#auroraCyan)" />
+  <rect width="960" height="360" rx="20" fill="url(#auroraPink)" />
+  <rect width="960" height="360" rx="20" fill="url(#auroraViolet)" />
+
+  <!-- Synthwave Perspective Grid Floor -->
+  <g stroke="#818cf8" stroke-opacity="0.14" stroke-width="1">
+    <rect x="0" y="218" width="960" height="142" fill="url(#horizonGlow)" stroke="none" />
+    <line x1="0" y1="218" x2="960" y2="218" stroke="#38bdf8" stroke-opacity="0.3" />
+    <line x1="0" y1="246" x2="960" y2="246" />
+    <line x1="0" y1="280" x2="960" y2="280" />
+    <line x1="0" y1="320" x2="960" y2="320" />
+    <!-- Perspective vanishing lines -->
+    <line x1="480" y1="218" x2="480" y2="360" />
+    <line x1="390" y1="218" x2="260" y2="360" />
+    <line x1="300" y1="218" x2="40" y2="360" />
+    <line x1="570" y1="218" x2="700" y2="360" />
+    <line x1="660" y1="218" x2="920" y2="360" />
+  </g>
+
+  <!-- Twinkling Starfield -->
+  <g fill="#f8fafc">
+    <circle cx="590" cy="64" r="1.6" class="s1" />
+    <circle cx="640" cy="96" r="1.2" class="s2" />
+    <circle cx="705" cy="54" r="2.0" class="s3" />
+    <circle cx="880" cy="62" r="1.5" class="s1" />
+    <circle cx="915" cy="108" r="1.8" class="s2" />
+    <circle cx="530" cy="112" r="1.3" class="s3" />
+  </g>
+
+  <!-- Scanline Laser -->
+  <rect class="laser-beam" x="14" y="0" width="932" height="2" fill="url(#scanLineGrad)" />
+
+  <!-- Outer Neon Border + Chamfered Corner Accents -->
+  <rect x="2" y="2" width="956" height="356" rx="19" fill="none" stroke="url(#frameNeon)" stroke-opacity="0.72" stroke-width="1.6" />
+  <path d="M 18 2 L 2 18 M 942 2 L 958 18 M 18 358 L 2 342 M 942 358 L 958 342" stroke="#38bdf8" stroke-width="2.5" stroke-opacity="0.9" fill="none" />
+
+  <!-- Top HUD Header Bar -->
+  <g transform="translate(36, 36)" font-family="monospace" font-size="12">
+    <rect x="-8" y="-16" width="295" height="24" rx="12" fill="#090e1c" fill-opacity="0.78" stroke="#38bdf8" stroke-opacity="0.4" />
+    <circle cx="6" cy="-4" r="4.5" fill="#4ade80" class="dot-live" />
+    <text x="18" y="0" fill="#e2e8f0" font-weight="bold">DINHQUAN1005 // VIP ARCADE</text>
+
+    <rect x="688" y="-16" width="204" height="24" rx="12" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.55" />
+    <text x="790" y="0" text-anchor="middle" fill="#fbcfe8" font-size="11" font-weight="bold">☕ CAFFEINE: CRITICAL</text>
+  </g>
+
+  <!-- Left Hero Title Block -->
+  <g transform="translate(36, 118)">
+    <!-- Subtle Glow Shadow -->
+    <text x="2" y="2" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="46" font-weight="900" fill="#38bdf8" opacity="0.22">
+      Chào, tôi là Đinh Quân 👋
+    </text>
+    <text font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="46" font-weight="900" fill="url(#titleNeon)">
+      Chào, tôi là Đinh Quân 👋
+    </text>
+
+    <!-- LVL 99 Pill -->
+    <rect x="570" y="-34" width="66" height="24" rx="8" fill="#8b5cf6" fill-opacity="0.25" stroke="#a78bfa" stroke-width="1.2" />
+    <text x="603" y="-18" text-anchor="middle" font-family="monospace" font-size="11" font-weight="bold" fill="#e9d5ff">LVL 99</text>
+
+    <text y="38" font-family="monospace" font-size="15.5" fill="#e2e8f0">
+      &gt; "Code chạy được trên máy tôi là được — đừng hỏi vì sao ¯\_(ツ)_/¯"
+    </text>
+    <text y="64" font-family="monospace" font-size="12.5" fill="#94a3b8">
+      [MODE: VUI VẺ LÀ CHÍNH · DEBUG LÀ PHỤ · CÀ PHÊ LÀ CHÂN ÁI]
+    </text>
+  </g>
+
+  <!-- Right Side VIP Visual Widget: Mini Radar + Lo-Fi Equalizer -->
+  <g transform="translate(715, 76)">
+    <rect width="208" height="122" rx="14" fill="#070c1a" fill-opacity="0.88" stroke="#818cf8" stroke-opacity="0.45" stroke-width="1.2" />
+
+    <!-- Radar Mini Left -->
+    <g transform="translate(54, 56)">
+      <circle r="36" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1" />
+      <circle r="22" fill="none" stroke="#38bdf8" stroke-opacity="0.22" stroke-dasharray="3,3" />
+      <line x1="-36" y1="0" x2="36" y2="0" stroke="#38bdf8" stroke-opacity="0.2" />
+      <line x1="0" y1="-36" x2="0" y2="36" stroke="#38bdf8" stroke-opacity="0.2" />
+      <g class="radar-spin">
+        <line x1="0" y1="0" x2="35" y2="0" stroke="#38bdf8" stroke-width="2" />
+        <polygon points="0,0 35,-12 35,0" fill="#38bdf8" opacity="0.28" />
+      </g>
+      <circle cx="14" cy="-12" r="2.5" fill="#f472b6" class="dot-live" />
+      <circle cx="-18" cy="14" r="2" fill="#4ade80" />
+    </g>
+
+    <!-- Equalizer 7 Bars Right -->
+    <g transform="translate(106, 26)">
+      <text x="0" y="0" font-family="monospace" font-size="9.5" fill="#a78bfa" font-weight="bold">LO-FI BEATS</text>
+      <g transform="translate(0, 14)">
+        <rect class="eq-1" x="0" width="7" rx="3" fill="#38bdf8" />
+        <rect class="eq-2" x="13" width="7" rx="3" fill="#60a5fa" />
+        <rect class="eq-3" x="26" width="7" rx="3" fill="#818cf8" />
+        <rect class="eq-4" x="39" width="7" rx="3" fill="#a78bfa" />
+        <rect class="eq-2" x="52" width="7" rx="3" fill="#e879f9" />
+        <rect class="eq-1" x="65" width="7" rx="3" fill="#f472b6" />
+        <rect class="eq-3" x="78" width="7" rx="3" fill="#fb7185" />
+      </g>
+      <rect class="cl1" x="0" y="60" width="85" height="3" rx="1.5" fill="#38bdf8" />
+      <rect class="cl2" x="0" y="68" width="58" height="3" rx="1.5" fill="#f472b6" />
+    </g>
+
+    <text x="104" y="112" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#94a3b8" letter-spacing="1">RADAR TÌM BUG: 99+ PHÁT HIỆN</text>
+  </g>
+
+  <!-- 4 Floating Glassmorphic Status Cards (Outer group locks position!) -->
+  <g transform="translate(36, 248)">
+    <g class="float-cards" font-family="monospace">
+      <!-- Card 1 -->
+      <rect width="210" height="78" rx="12" fill="#080d1c" fill-opacity="0.90" stroke="#38bdf8" stroke-opacity="0.50" stroke-width="1.2" />
+      <text x="14" y="23" font-size="10.5" fill="#38bdf8" font-weight="bold">⚡ NĂNG LƯỢNG</text>
+      <rect x="14" y="35" width="182" height="8" rx="4" fill="#1e293b" />
+      <rect class="bar-caf" x="14" y="35" width="145" height="8" rx="4" fill="#38bdf8" />
+      <text x="14" y="62" font-size="11" fill="#cbd5e1">Cà phê đá không đường</text>
+
+      <!-- Card 2 -->
+      <rect x="226" width="210" height="78" rx="12" fill="#080d1c" fill-opacity="0.90" stroke="#a78bfa" stroke-opacity="0.50" stroke-width="1.2" />
+      <text x="240" y="23" font-size="10.5" fill="#a78bfa" font-weight="bold">🐛 TIẾN ĐỘ BUG</text>
+      <text x="240" y="46" font-size="13.5" fill="#f8fafc" font-weight="bold">Fix 1 → Đẻ 3 mới</text>
+      <text x="240" y="64" font-size="10.5" fill="#94a3b8">Feature chứ không phải bug</text>
+
+      <!-- Card 3 -->
+      <rect x="452" width="210" height="78" rx="12" fill="#080d1c" fill-opacity="0.90" stroke="#f472b6" stroke-opacity="0.50" stroke-width="1.2" />
+      <text x="466" y="23" font-size="10.5" fill="#f472b6" font-weight="bold">🧠 ĐỘ TỈNH TÁO</text>
+      <rect x="466" y="35" width="182" height="8" rx="4" fill="#1e293b" />
+      <rect class="bar-san" x="466" y="35" width="115" height="8" rx="4" fill="#f472b6" />
+      <text x="466" y="62" font-size="11" fill="#cbd5e1">Pin yếu · vui lòng nạp</text>
+
+      <!-- Card 4 -->
+      <rect x="678" width="210" height="78" rx="12" fill="#080d1c" fill-opacity="0.90" stroke="#4ade80" stroke-opacity="0.50" stroke-width="1.2" />
+      <text x="692" y="23" font-size="10.5" fill="#4ade80" font-weight="bold">🌙 GIẤC NGỦ</text>
+      <text x="692" y="46" font-size="13.5" fill="#f8fafc" font-weight="bold">404 Not Found</text>
+      <text x="692" y="64" font-size="10.5" fill="#94a3b8">Hẹn mai ngủ bù (xạo)</text>
+    </g>
+  </g>
+</svg>
