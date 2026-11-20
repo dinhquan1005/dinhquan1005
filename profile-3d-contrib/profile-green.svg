@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f6f8fa" />
+    </linearGradient>
+  </defs>
+  <rect width="850" height="380" rx="12" fill="url(#bgGradLight)" stroke="#e1e4e8" stroke-width="1.5" />
+  <g font-family="'JetBrains Mono', monospace">
+    <text x="35" y="38" fill="#24292e" font-size="16" font-weight="900">GITHUB 3D CONTRIBUTION MATRIX</text>
+    <text x="35" y="58" fill="#586069" font-size="11">User: dinhquan1005 · Green Profile</text>
+  </g>
+  <g transform="translate(425, 140)">
+    <g transform="translate(-100, 0)">
+      <polygon points="20,-2 36,6 20,14 4,6" fill="#39d353" />
+      <polygon points="20,-2 20,-50 36,-42 36,6" fill="#006d32" />
+      <polygon points="4,6 4,-42 20,-50 20,-2" fill="#26a641" />
+      <polygon points="20,-50 36,-42 20,-34 4,-42" fill="#39d353" />
+    </g>
+  </g>
+</svg>

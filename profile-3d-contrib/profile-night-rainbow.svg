@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="cyanPillar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="100%" stop-color="#00599c" />
+    </linearGradient>
+    <linearGradient id="purplePillar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#7928ca" />
+    </linearGradient>
+    <linearGradient id="emeraldPillar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+    <linearGradient id="amberPillar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+
+  <rect width="850" height="380" rx="12" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5" />
+
+  <g font-family="'JetBrains Mono', monospace">
+    <text x="35" y="38" fill="#00f5d4" font-size="16" font-weight="900" letter-spacing="1">GITHUB 3D CONTRIBUTION MATRIX</text>
+    <text x="35" y="58" fill="#8b949e" font-size="11">User: dinhquan1005 · Night Rainbow Profile · Isometric Projection</text>
+  </g>
+
+  <!-- 3D Isometric Matrix Mesh -->
+  <g transform="translate(425, 120)">
+    <!-- Base Layer Iso Grid -->
+    <!-- Col 0 -->
+    <g transform="translate(-240, 40)">
+      <polygon points="0,-10 16,-2 0,6 -16,-2" fill="#21262d" />
+      <polygon points="20,-2 36,6 20,14 4,6" fill="#00f5d4" />
+      <polygon points="20,-2 20,-25 36,-17 36,6" fill="#0e7490" />
+      <polygon points="4,6 4,-17 20,-25 20,-2" fill="#06b6d4" />
+      <polygon points="20,-25 36,-17 20,-9 4,-17" fill="#00f5d4" />
+    </g>
+
+    <!-- Col 1 -->
+    <g transform="translate(-180, 20)">
+      <polygon points="0,-10 16,-2 0,6 -16,-2" fill="#21262d" />
+      <polygon points="20,-2 36,6 20,14 4,6" fill="#c084fc" />
+      <polygon points="20,-2 20,-45 36,-37 36,6" fill="#6b21a8" />
+      <polygon points="4,6 4,-37 20,-45 20,-2" fill="#a855f7" />
+      <polygon points="20,-45 36,-37 20,-29 4,-37" fill="#c084fc" />
+    </g>
+
+    <!-- Col 2 -->
+    <g transform="translate(-120, 0)">
+      <polygon points="0,-10 16,-2 0,6 -16,-2" fill="#21262d" />
+      <polygon points="20,-2 36,6 20,14 4,6" fill="#4ade80" />
+      <polygon points="20,-2 20,-60 36,-52 36,6" fill="#15803d" />
+      <polygon points="4,6 4,-52 20,-60 20,-2" fill="#22c55e" />
+      <polygon points="20,-60 36,-52 20,-44 4,-52" fill="#4ade80" />
+    </g>
+
+    <!-- Col 3 Center Highlight -->
+    <g transform="translate(-60, -20)">
+      <polygon points="0,-10 16,-2 0,6 -16,-2" fill="#21262d" />
+      <polygon points="20,-2 36,6 20,14 4,6" fill="#fbbf24" />
+      <polygon points="20,-2 20,-85 36,-77 36,6" fill="#b45309" />
+      <polygon points="4,6 4,-77 20,-85 20,-2" fill="#f59e0b" />
+      <polygon points="20,-85 36,-77 20,-69 4,-77" fill="#fbbf24" />
+    </g>
+
+    <!-- Col 4 -->
+    <g transform="translate(0, 0)">
+      <polygon points="0,-10 16,-2 0,6 -16,-2" fill="#21262d" />
+      <polygon points="20,-2 36,6 20,14 4,6" fill="#f43f5e" />
+      <polygon points="20,-2 20,-70 36,-62 36,6" fill="#9f1239" />
+      <polygon points="4,6 4,-62 20,-70 20,-2" fill="#e11d48" />
+      <polygon points="20,-70 36,-62 20,-54 4,-62" fill="#fb7185" />
+    </g>
+
+    <!-- Col 5 -->
+    <g transform="translate(60, 20)">
+      <polygon points="0,-10 16,-2 0,6 -16,-2" fill="#21262d" />
+      <polygon points="20,-2 36,6 20,14 4,6" fill="#00f5d4" />
+      <polygon points="20,-2 20,-50 36,-42 36,6" fill="#0e7490" />
+      <polygon points="4,6 4,-42 20,-50 20,-2" fill="#06b6d4" />
+      <polygon points="20,-50 36,-42 20,-34 4,-42" fill="#00f5d4" />
+    </g>
+
+    <!-- Col 6 -->
+    <g transform="translate(120, 40)">
+      <polygon points="0,-10 16,-2 0,6 -16,-2" fill="#21262d" />
+      <polygon points="20,-2 36,6 20,14 4,6" fill="#c084fc" />
+      <polygon points="20,-2 20,-35 36,-27 36,6" fill="#6b21a8" />
+      <polygon points="4,6 4,-27 20,-35 20,-2" fill="#a855f7" />
+      <polygon points="20,-35 36,-27 20,-19 4,-27" fill="#c084fc" />
+    </g>
+
+    <!-- Foreground Iso Rows -->
+    <g transform="translate(-150, 70)">
+      <polygon points="20,-2 36,6 20,14 4,6" fill="#4ade80" />
+      <polygon points="20,-2 20,-40 36,-32 36,6" fill="#15803d" />
+      <polygon points="4,6 4,-32 20,-40 20,-2" fill="#22c55e" />
+      <polygon points="20,-40 36,-32 20,-24 4,-32" fill="#4ade80" />
+    </g>
+
+    <g transform="translate(-30, 50)">
+      <polygon points="20,-2 36,6 20,14 4,6" fill="#38bdf8" />
+      <polygon points="20,-2 20,-65 36,-57 36,6" fill="#0369a1" />
+      <polygon points="4,6 4,-57 20,-65 20,-2" fill="#0284c7" />
+      <polygon points="20,-65 36,-57 20,-49 4,-57" fill="#38bdf8" />
+    </g>
+
+    <g transform="translate(90, 70)">
+      <polygon points="20,-2 36,6 20,14 4,6" fill="#fbbf24" />
+      <polygon points="20,-2 20,-30 36,-22 36,6" fill="#b45309" />
+      <polygon points="4,6 4,-22 20,-30 20,-2" fill="#f59e0b" />
+      <polygon points="20,-30 36,-22 20,-14 4,-22" fill="#fbbf24" />
+    </g>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(35, 350)" font-family="monospace" font-size="10" fill="#8b949e">
+    <text>Less</text>
+    <rect x="35" y="-9" width="10" height="10" rx="2" fill="#21262d" />
+    <rect x="49" y="-9" width="10" height="10" rx="2" fill="#38bdf8" />
+    <rect x="63" y="-9" width="10" height="10" rx="2" fill="#00f5d4" />
+    <rect x="77" y="-9" width="10" height="10" rx="2" fill="#a855f7" />
+    <rect x="91" y="-9" width="10" height="10" rx="2" fill="#fbbf24" />
+    <rect x="105" y="-9" width="10" height="10" rx="2" fill="#f43f5e" />
+    <text x="125" y="0">More</text>
+    <text x="650" y="0" fill="#00f5d4">STATUS: SYNCHRONIZED</text>
+  </g>
+</svg>
