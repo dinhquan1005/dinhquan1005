@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Banner Vui Nhộn -->
+<!-- Banner Động Vui Nhộn -->
 <img src="./dynamic_banner.svg" width="100%" alt="Dinh Quan Fun Banner" />
 
 <br/><br/>
@@ -14,6 +14,10 @@
 
 <img src="https://komarev.com/ghpvc/?username=dinhquan1005&label=L%C6%AF%E1%BB%A2T+GH%C3%89+TH%C4%82M&color=8b5cf6&style=for-the-badge" alt="Profile Views" />
 
+<br/><br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="80%" alt="Gradient Divider" />
+
 </div>
 
 ---
@@ -22,11 +26,44 @@
 
 <div align="center">
 
-<img src="./assets/dance.gif" width="280" alt="Vibe Dance" />
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://user-images.githubusercontent.com/74038190/212284145-bf2c01a8-c448-4f1a-b911-996024c84606.gif" width="320" alt="Ultra Fast Typing Cat" />
+      <br/><br/>
+      <b>⚡ Khi deadline còn đúng 5 phút</b>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://user-images.githubusercontent.com/74038190/212897782-96581536-54a0-4b87-87b4-5e55f95e8a8b.gif" width="320" alt="How My Code Works" />
+      <br/><br/>
+      <b>🪄 Khi code chạy mà không hiểu tại sao</b>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://user-images.githubusercontent.com/74038190/213760482-f7fa7b7b-7d6c-4063-bdd7-4483749948ad.gif" width="320" alt="Not a Bug It's a Feature" />
+      <br/><br/>
+      <b>🎭 Khi lỡ có bug ngay lúc đi demo</b>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://user-images.githubusercontent.com/74038190/218266069-da299265-d22b-41f5-99f1-cf8bfa951c42.gif" width="320" alt="Git Pull Conflict" />
+      <br/><br/>
+      <b>💥 Mỗi lần <code>git pull</code> và dính conflict</b>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-*Mood hiện tại mỗi khi code chạy pass ngay lần bấm Run đầu tiên.*
+<details>
+<summary><b>🌙 Bấm vào đây để xem mood code đêm khuya</b></summary>
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212750999-42ff8a64-dad8-4772-9648-849968543991.gif" width="460" alt="Coding in Peace" />
+<br/><br/>
+<i>2 giờ sáng, một ly cà phê và màn hình đen là chân ái.</i>
+
+</details>
 
 </div>
 
@@ -64,7 +101,13 @@
 
 <div align="center">
 
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="80%" alt="Gradient Divider" />
+
+<br/><br/>
+
 **"Nếu bạn đọc đến đây mà vẫn chưa thấy bug nào, chúc bạn một ngày tốt lành!"** 😄
+
+<br/>
 
 <a href="https://github.com/dinhquan1005">
   <img src="https://img.shields.io/badge/GitHub-@dinhquan1005-0b1020?style=for-the-badge&logo=github&logoColor=38bdf8" alt="GitHub" />

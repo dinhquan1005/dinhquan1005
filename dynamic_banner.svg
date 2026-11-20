@@ -1,37 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="100%">
   <defs>
     <linearGradient id="bgFun" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b1020" />
-      <stop offset="50%" stop-color="#131936" />
-      <stop offset="100%" stop-color="#1a1033" />
+      <stop offset="0%" stop-color="#070b16" />
+      <stop offset="50%" stop-color="#111833" />
+      <stop offset="100%" stop-color="#1d1035" />
     </linearGradient>
+    <radialGradient id="glowCyan" cx="18%" cy="22%" r="45%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowPink" cx="85%" cy="78%" r="48%">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0" />
+    </radialGradient>
     <linearGradient id="neonTitle" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" />
       <stop offset="50%" stop-color="#a78bfa" />
       <stop offset="100%" stop-color="#f472b6" />
     </linearGradient>
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.6" />
+    </linearGradient>
     <style>
       @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
-      @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-4px); } }
-      @keyframes barFill { 0%, 100% { width: 120px; } 50% { width: 185px; } }
+      @keyframes floatY { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-4px); } }
+      @keyframes barFill { 0%, 100% { width: 115px; } 50% { width: 195px; } }
       .dot { animation: blink 1.3s infinite ease-in-out; }
-      .float-box { animation: float 3.2s ease-in-out infinite; }
+      .float-cards { animation: floatY 3.4s ease-in-out infinite; }
       .caffeine-bar { animation: barFill 4s ease-in-out infinite; }
     </style>
   </defs>
 
-  <rect width="880" height="260" rx="16" fill="url(#bgFun)" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.5" />
+  <!-- Base & Glows -->
+  <rect width="900" height="280" rx="16" fill="url(#bgFun)" />
+  <rect width="900" height="280" rx="16" fill="url(#glowCyan)" />
+  <rect width="900" height="280" rx="16" fill="url(#glowPink)" />
 
-  <!-- Top Bar -->
-  <g transform="translate(36, 36)" font-family="monospace" font-size="12">
-    <circle cx="6" cy="-4" r="5" fill="#4ade80" class="dot" />
-    <text x="20" y="0" fill="#94a3b8" font-weight="bold">DINHQUAN1005 // ONLINE (CHẮC VẬY)</text>
-    <text x="808" y="0" text-anchor="end" fill="#f472b6">COFFEE_LEVEL: CRITICAL</text>
+  <!-- Grid -->
+  <g stroke="#38bdf8" stroke-opacity="0.045" stroke-width="1">
+    <line x1="0" y1="56" x2="900" y2="56" />
+    <line x1="0" y1="112" x2="900" y2="112" />
+    <line x1="0" y1="168" x2="900" y2="168" />
+    <line x1="0" y1="224" x2="900" y2="224" />
+    <line x1="180" y1="0" x2="180" y2="280" />
+    <line x1="360" y1="0" x2="360" y2="280" />
+    <line x1="540" y1="0" x2="540" y2="280" />
+    <line x1="720" y1="0" x2="720" y2="280" />
+  </g>
+
+  <!-- Outer Frame -->
+  <rect x="1.5" y="1.5" width="897" height="277" rx="15" fill="none" stroke="url(#borderGlow)" stroke-width="1.5" />
+
+  <!-- Top Status Row -->
+  <g transform="translate(40, 38)" font-family="monospace" font-size="12">
+    <circle cx="6" cy="-4" r="4.5" fill="#4ade80" class="dot" />
+    <text x="18" y="0" fill="#cbd5e1" font-weight="bold">DINHQUAN1005 // ONLINE (CHẮC VẬY)</text>
+    <text x="820" y="0" text-anchor="end" fill="#f472b6" font-weight="bold">CAFFEINE_LEVEL: CRITICAL</text>
   </g>
 
   <!-- Main Title -->
-  <g transform="translate(36, 98)">
-    <text font-family="'Segoe UI', sans-serif" font-size="40" font-weight="900" fill="url(#neonTitle)">
+  <g transform="translate(40, 102)">
+    <text font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="42" font-weight="800" fill="url(#neonTitle)">
       Chào, tôi là Đinh Quân 👋
     </text>
     <text y="34" font-family="monospace" font-size="15" fill="#e2e8f0">
@@ -39,22 +70,24 @@
     </text>
   </g>
 
-  <!-- Funny Status Pills -->
-  <g class="float-box" transform="translate(36, 172)" font-family="monospace">
-    <!-- Pill 1: Caffeine -->
-    <rect width="250" height="54" rx="10" fill="#090d1a" stroke="#38bdf8" stroke-opacity="0.35" />
-    <text x="14" y="21" font-size="10" fill="#38bdf8" font-weight="bold">NĂNG LƯỢNG CÀ PHÊ</text>
-    <rect x="14" y="32" width="220" height="8" rx="4" fill="#1e293b" />
-    <rect class="caffeine-bar" x="14" y="32" width="150" height="8" rx="4" fill="#38bdf8" />
+  <!-- Floating Status Cards (Outer group keeps position, inner group animates Y!) -->
+  <g transform="translate(40, 184)">
+    <g class="float-cards" font-family="monospace">
+      <!-- Card 1 -->
+      <rect width="256" height="62" rx="10" fill="#090e1c" fill-opacity="0.88" stroke="#38bdf8" stroke-opacity="0.38" />
+      <text x="16" y="23" font-size="10.5" fill="#38bdf8" font-weight="bold">NĂNG LƯỢNG CÀ PHÊ</text>
+      <rect x="16" y="36" width="224" height="8" rx="4" fill="#1e293b" />
+      <rect class="caffeine-bar" x="16" y="36" width="150" height="8" rx="4" fill="#38bdf8" />
 
-    <!-- Pill 2: Bugs -->
-    <rect x="275" width="250" height="54" rx="10" fill="#090d1a" stroke="#a78bfa" stroke-opacity="0.35" />
-    <text x="289" y="21" font-size="10" fill="#a78bfa" font-weight="bold">TIẾN ĐỘ FIX BUG</text>
-    <text x="289" y="42" font-size="13" fill="#e2e8f0">Sửa 1 bug → đẻ 3 bug mới</text>
+      <!-- Card 2 -->
+      <rect x="282" width="256" height="62" rx="10" fill="#090e1c" fill-opacity="0.88" stroke="#a78bfa" stroke-opacity="0.38" />
+      <text x="298" y="23" font-size="10.5" fill="#a78bfa" font-weight="bold">TIẾN ĐỘ FIX BUG</text>
+      <text x="298" y="45" font-size="13" fill="#e2e8f0">Sửa 1 bug → đẻ 3 bug mới</text>
 
-    <!-- Pill 3: Sleep -->
-    <rect x="550" width="258" height="54" rx="10" fill="#090d1a" stroke="#f472b6" stroke-opacity="0.35" />
-    <text x="564" y="21" font-size="10" fill="#f472b6" font-weight="bold">GIẤC NGỦ</text>
-    <text x="564" y="42" font-size="13" fill="#e2e8f0">404 Not Found 🌙</text>
+      <!-- Card 3 -->
+      <rect x="564" width="256" height="62" rx="10" fill="#090e1c" fill-opacity="0.88" stroke="#f472b6" stroke-opacity="0.38" />
+      <text x="580" y="23" font-size="10.5" fill="#f472b6" font-weight="bold">GIẤC NGỦ</text>
+      <text x="580" y="45" font-size="13" fill="#e2e8f0">404 Not Found 🌙</text>
+    </g>
   </g>
 </svg>
