@@ -90,29 +90,11 @@
 
 ---
 
-### 🧊 3D Contribution Matrix
+### 💃 Vibe & Resonance
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dinhquan1005/dinhquan1005/output/profile-3d-contrib/profile-night-rainbow.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dinhquan1005/dinhquan1005/output/profile-3d-contrib/profile-green.svg">
-  <img alt="3D Contribution Graph" src="https://raw.githubusercontent.com/dinhquan1005/dinhquan1005/output/profile-3d-contrib/profile-night-rainbow.svg" width="100%">
-</picture>
-
-</div>
-
----
-
-### 🐍 Contribution Grid Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dinhquan1005/dinhquan1005/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dinhquan1005/dinhquan1005/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/dinhquan1005/dinhquan1005/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
+<img src="https://raw.githubusercontent.com/Naereen/badges/master/gif/zero-two-dance.gif" width="300" alt="Anime Dance Loop" />
 
 </div>
 
