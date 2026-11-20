@@ -80,11 +80,11 @@
 
 ---
 
-### 💃 Vibe & Resonance
+### 💃 Vibe Zone
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Naereen/badges/master/gif/zero-two-dance.gif" width="300" alt="Anime Dance Loop" />
+<img src="./assets/dance.gif" width="280" alt="Anime Dance Loop" />
 
 </div>
 
