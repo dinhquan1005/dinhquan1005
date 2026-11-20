@@ -17,10 +17,10 @@
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&multiline=true&width=680&height=70&lines=%C4%90%E1%BB%ABng+h%E1%BB%8Fi+code+ch%E1%BA%A1y+th%E1%BA%BF+n%C3%A0o%2C+n%C3%B3+ch%E1%BA%A1y+l%C3%A0+%C4%91%C6%B0%E1%BB%A3c;99%25+th%E1%BB%9Di+gian+l%C3%A0+t%C3%ACm+d%E1%BA%A5u+ch%E1%BA%A5m+ph%E1%BA%A9y;Kh%C3%B4ng+c%C3%B3+bug%2C+ch%E1%BB%89+c%C3%B3+t%C3%ADnh+n%C4%83ng+b%E1%BA%A5t+ng%E1%BB%9D!;Ng%E1%BB%A7+%C4%91%E1%BB%A7+8+ti%E1%BA%BFng+l%C3%A0+c%C3%A1i+g%C3%AC+c%C3%B3+%C4%83n+%C4%91%C6%B0%E1%BB%A3c+kh%C3%B4ng%3F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&duration=2600&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&height=52&lines=%C4%90%E1%BB%ABng+h%E1%BB%8Fi+code+ch%E1%BA%A1y+th%E1%BA%BF+n%C3%A0o%2C+n%C3%B3+ch%E1%BA%A1y+l%C3%A0+%C4%91%C6%B0%E1%BB%A3c;99%25+th%E1%BB%9Di+gian+l%C3%A0+t%C3%ACm+d%E1%BA%A5u+ch%E1%BA%A5m+ph%E1%BA%A9y;Kh%C3%B4ng+c%C3%B3+bug%2C+ch%E1%BB%89+c%C3%B3+t%C3%ADnh+n%C4%83ng+b%E1%BA%A5t+ng%E1%BB%9D!;Ng%E1%BB%A7+%C4%91%E1%BB%A7+8+ti%E1%BA%BFng+l%C3%A0+c%C3%A1i+g%C3%AC+c%C3%B3+%C4%83n+%C4%91%C6%B0%E1%BB%A3c+kh%C3%B4ng%3F" alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=dinhquan1005&label=L%C6%AF%E1%BB%A2T+GH%C3%89+TH%C4%82M&color=8b5cf6&style=for-the-badge" alt="Profile Views" />&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/VIP_ARCADE-LVL_99-090e1c?style=for-the-badge&logo=github&logoColor=38bdf8" alt="VIP Active" />&nbsp;&nbsp;
@@ -182,29 +182,6 @@
 ! Quy tắc vàng: Đang chạy ổn thì CẤM ĐỤNG VÀO
 # Tốc độ làm việc: Tỉ lệ thuận với độ gần của deadline
 ```
-
----
-
-### 📊 Chỉ Số Nhân Phẩm
-
-<div align="center">
-
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=dinhquan1005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=090e1c&title_color=38bdf8&icon_color=f472b6&text_color=e2e8f0" width="100%" alt="GitHub Stats" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://streak-stats.demolab.com?user=dinhquan1005&theme=tokyonight&hide_border=true&background=090e1c&ring=38bdf8&fire=f472b6&currStreakLabel=38bdf8&sideLabels=e2e8f0&dates=94a3b8" width="100%" alt="Streak Stats" />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dinhquan1005&theme=tokyo-night&hide_border=true&bg_color=090e1c&color=38bdf8&line=f472b6&point=f8fafc&area=true&hide_title=true" width="100%" alt="Activity Graph" />
-
-</div>
 
 ---
 
