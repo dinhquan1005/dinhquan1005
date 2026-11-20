@@ -53,16 +53,6 @@
 
 ---
 
-### 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=dinhquan1005&theme=tokyonight&no-frame=true&no-bg=true&margin_w=4" alt="Trophies" width="95%" />
-
-</div>
-
----
-
 ### 📊 Telemetry & Coding Velocity
 
 <div align="center">
